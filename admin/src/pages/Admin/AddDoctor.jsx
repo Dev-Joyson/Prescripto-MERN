@@ -62,6 +62,7 @@ const AddDoctor = () => {
                 setFees('')
             }else {
                 toast.error(data.message)
+                console.log(data.message)
                 console.log(data)
             }
 
@@ -129,8 +130,8 @@ const AddDoctor = () => {
                 <option value="General physician">General physician</option>
                 <option value="Gynecologist">Gynecologist</option>
                 <option value="Dermatologist">Dermatologist</option>
-                <option value="Pediatricians">Dermatologist</option>
-                <option value="Neurologist">Dermatologist</option>
+                <option value="Pediatricians">Pediatricians</option>
+                <option value="Neurologist">Neurologist</option>
                 <option value="Gastroenterologist">Gastroenterologist</option>
               </select>
             </div>
